@@ -10096,41 +10096,6 @@ Transform:
   m_Father: {fileID: 405982917}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &372872746
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 'Directional Light : Shadow Map Render Texture'
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  serializedVersion: 3
-  m_Width: 512
-  m_Height: 512
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthFormat: 0
-  m_ColorFormat: 52
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
 --- !u!1 &374814383
 GameObject:
   m_ObjectHideFlags: 0
@@ -25520,11 +25485,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: animalPen_1 (2)
       objectReference: {fileID: 0}
-    - target: {fileID: 86859866447187178, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
-        type: 3}
-      propertyPath: InvisWall
-      value: 
-      objectReference: {fileID: 1780205685}
     - target: {fileID: 4921909204453788169, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -25580,6 +25540,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 88.70801
       objectReference: {fileID: 0}
+    - target: {fileID: 86859866447187178, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
+        type: 3}
+      propertyPath: InvisWall
+      value: 
+      objectReference: {fileID: 1780205685}
     - target: {fileID: 3251774625317058031, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
         type: 3}
       propertyPath: InvisWall
@@ -35599,7 +35564,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 12415218}
-        m_MethodName: GotoDemoScene
+        m_MethodName: GotoMediumLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -45640,6 +45605,41 @@ Transform:
   m_Father: {fileID: 2128699961}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &1608872977
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 'Directional Light : Shadow Map Render Texture'
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  serializedVersion: 3
+  m_Width: 512
+  m_Height: 512
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthFormat: 0
+  m_ColorFormat: 52
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
 --- !u!1 &1609251551
 GameObject:
   m_ObjectHideFlags: 0
@@ -55309,7 +55309,7 @@ MonoBehaviour:
   overrideColor: 0
   overridingColor: {r: 1, g: 1, b: 1, a: 1}
   useShadow: 1
-  shadowMapRenderTexture: {fileID: 372872746}
+  shadowMapRenderTexture: {fileID: 1608872977}
   useCookie: 1
   cookieMapRenderTexture: {fileID: 0}
   enableOutOfPhaseColor: 0
@@ -62494,11 +62494,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: animalPen_1
       objectReference: {fileID: 0}
-    - target: {fileID: 86859866447187178, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
-        type: 3}
-      propertyPath: InvisWall
-      value: 
-      objectReference: {fileID: 1780205685}
     - target: {fileID: 4921909204453788169, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -62554,6 +62549,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 88.70801
       objectReference: {fileID: 0}
+    - target: {fileID: 86859866447187178, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
+        type: 3}
+      propertyPath: InvisWall
+      value: 
+      objectReference: {fileID: 1780205685}
     - target: {fileID: 3251774625317058031, guid: b1499c0a8f6c2bc488fcc70c51f9cbfe,
         type: 3}
       propertyPath: InvisWall
